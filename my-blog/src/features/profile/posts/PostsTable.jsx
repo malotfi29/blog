@@ -16,7 +16,7 @@ function PostsTable() {
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-secondary-700 mb-12 items-center">
         <h1 className="text-lg text-secondary-600 font-bold">پست ها</h1>
-        <Search />
+        {/* <Search /> */}
         {/* <CreatePost /> */}
         <button
           onClick={() => setOpen(true)}
